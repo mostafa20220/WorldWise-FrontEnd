@@ -1,0 +1,99 @@
+.share{
+  margin-top: auto ;
+
+  text-align: center;
+
+  font-size: 1.4rem;
+  font-weight: 600;
+  
+  padding: 2rem 0;
+
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  justify-content: center;
+  gap: 1.6rem;
+  
+}
+
+.shareLink {
+  background-color: var(--color-dark--2);
+  padding: 1rem 1.4rem;
+  border-radius: 7px;
+  z-index: 999;
+  box-shadow: 0 0.8rem 2.4rem rgba(36, 42, 46, 0.5);
+  font-size: 1.4rem;
+  font-weight: 600;  
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+
+.shareLink a{
+  text-decoration: none;
+  color: var(--color-brand--2);
+  cursor: pointer;
+}
+
+.shareLink a:link,
+.shareLink a:visited{
+  color: var(--color-brand--2);
+}
+
+.shareLink a:active,
+.shareLink a:hover{
+  color: var(--color-brand--1);
+}
+
+.shareLink button{
+  background-color: var(--color-gray--2);
+  font-size: 1rem;
+  padding: 0.5rem;
+  border-radius: 8px;
+
+  border: none;
+  width:  3rem;
+  height: 3rem ;
+  cursor: pointer;
+
+}
+
+.shareLink button:hover
+{
+  background-color: var(--color-brand--1);
+}
+.shareLink button:active{
+  background-color: var(--color-brand--1);
+}
+
+.copied { 
+  cursor: auto !important;
+  background-color: var(--color-brand--2) !important;
+}
+
+.shareBtn{
+  background-color: var(--color-brand--2);
+  border-radius: 7px;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  color: var(--color-dark--1);
+  font-family: inherit;
+  font-size: 1.4rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.unshareBtn{
+  background-color: var(--color-red--1);
+  border-radius: 7px;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  color: var(--color-light--2);
+  font-family: inherit;
+  font-size: 1.2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  cursor: pointer;
+}

@@ -1,0 +1,55 @@
+.btn {
+  color: inherit;
+  text-transform: uppercase;
+  padding: 0.8rem 1.6rem;
+  font-family: inherit;
+  font-size: 1.5rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:disabled,
+button[disabled] {
+  /* border: 1px solid #999999; */
+  background-color: #2a9765;
+  color: var(--color-gray--2);
+  cursor: not-allowed;
+}
+
+.primary {
+  font-weight: 700;
+  background-color: var(--color-brand--2);
+  color: var(--color-dark--1);
+}
+
+.back {
+  font-weight: 600;
+  background: none;
+  border: 1px solid currentColor;
+}
+
+.position {
+  z-index: 500;
+
+  position: absolute;
+  right: 0;
+  bottom: 4rem;
+
+  font-weight: 700;
+  font-size: 1.4rem;
+  padding: 1.5rem 1.8rem;
+  border-radius: 100%;
+
+  color: var(--color-dark--1);
+  background-color: var(--color-brand--2);
+  /* background-color: var(--color-light--2); */
+  box-shadow: 0 0.4rem 1.2rem rgba(36, 42, 46, 0.16);
+
+  transform: translateX(-50%);
+}
+
+.position:hover {
+  background-color: var(--color-light--2);
+  /* color: var(--color-light--2); */
+}

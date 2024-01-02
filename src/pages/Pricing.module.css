@@ -1,0 +1,69 @@
+.pricing {
+  /* margin: 2.5rem; */
+  padding: 2.5rem 5rem;
+  background-color: var(--color-dark--1);
+  height: 100vh;
+  height: 100svh;
+
+  background-image: linear-gradient(
+      rgba(36, 42, 46, 0.8),
+      rgba(36, 42, 46, 0.8)
+    ),
+    url("/img-2.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+@media  screen and (max-width: 700px) {
+  .pricing {
+    padding: 2.5rem;
+  }
+  
+}
+
+@media  screen and (max-width: 500px) {
+  .pricing {
+    padding: 2rem;
+  }
+  
+}
+@media  screen and (max-width: 340px) {
+  .pricing {
+    padding: 1.5rem;
+  }
+  
+}
+
+
+.pricing section {
+  height: 70vh;
+  height: 70svh;
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 7rem;
+
+
+  margin: 6rem auto;
+}
+
+.pricing img {
+  width: 100%;
+}
+
+.pricing h2 {
+  font-size: 4rem;
+  line-height: 1.2;
+  margin-bottom: 3rem;
+}
+
+.pricing p {
+  font-size: 1.6rem;
+  margin-bottom: 2rem;
+}
+
+.pricing section a {
+  margin-top: 2rem;
+}
